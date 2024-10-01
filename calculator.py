@@ -17,6 +17,10 @@ def divide(x, y):
     else:
         return x / y
 
+# Function for power
+def power(x, y):
+    return x ** y
+
 # Main program
 def calculator():
     print("Select operation:")
@@ -24,13 +28,14 @@ def calculator():
     print("2. Subtract")
     print("3. Multiply")
     print("4. Divide")
+    print("5. Power")
 
     while True:
         # Take input from the user
-        choice = input("Enter choice (1/2/3/4): ")
+        choice = input("Enter choice (1/2/3/4/5): ")
 
         # Check if the choice is valid
-        if choice in ['1', '2', '3', '4']:
+        if choice in ['1', '2', '3', '4', '5']:
             num1 = float(input("Enter first number: "))
             num2 = float(input("Enter second number: "))
 
@@ -45,6 +50,9 @@ def calculator():
 
             elif choice == '4':
                 print(f"{num1} / {num2} = {divide(num1, num2)}")
+
+            elif choice == '5':
+                print(f"{num1} ^ {num2} = {power(num1, num2)}")
 
             # Ask if the user wants to perform another calculation
             next_calculation = input("Do you want to perform another calculation? (yes/no): ")

@@ -9,8 +9,6 @@ Start by forking this repository to your own GitHub account by clicking the “F
 2. Clone the Repository
 Once you have forked the repository, clone it to your local machine:
 
-git clone https://github.com/Saloni6111/DSA_Problems-Hacktoberfest-2024.git
-
 3. Create a Branch
 Before you make any changes, create a new branch for your contribution:
 
@@ -27,7 +25,6 @@ We currently accept solutions in all languages. Add your solution under the corr
 
 Filename Convention:
 Use meaningful names for the files like problem-name.ext. For example:
-
 two-sum.py
 reverse-linkedlist.cpp
 Comments:
